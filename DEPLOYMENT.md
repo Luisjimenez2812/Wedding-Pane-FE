@@ -19,7 +19,7 @@ El proyecto está configurado para desplegar en GitHub Pages con las siguientes 
 
 #### `vite.config.ts`
 ```typescript
-base: process.env.NODE_ENV === 'production' ? '/frontend/' : '/',
+base: process.env.NODE_ENV === 'production' ? '/Wedding-Pane-FE/' : '/',
 ```
 
 #### `index.html`
@@ -60,11 +60,11 @@ tu-repositorio/
 
 Una vez desplegada, las URLs serán:
 
-- **Página principal**: `https://tu-usuario.github.io/frontend/`
-- **Login**: `https://tu-usuario.github.io/frontend/login`
-- **Dashboard**: `https://tu-usuario.github.io/frontend/dashboard`
-- **Invitados**: `https://tu-usuario.github.io/frontend/guests`
-- **Invitación**: `https://tu-usuario.github.io/frontend/invitation/ABC123`
+- **Página principal**: `https://tu-usuario.github.io/Wedding-Pane-FE/`
+- **Login**: `https://tu-usuario.github.io/Wedding-Pane-FE/login`
+- **Dashboard**: `https://tu-usuario.github.io/Wedding-Pane-FE/dashboard`
+- **Invitados**: `https://tu-usuario.github.io/Wedding-Pane-FE/guests`
+- **Invitación**: `https://tu-usuario.github.io/Wedding-Pane-FE/invitation/ABC123`
 
 ### 6. Solución de Problemas
 
@@ -101,7 +101,7 @@ npm run preview:host
 
 ### 8. Notas Importantes
 
-- **Base Path**: Cambia `/frontend/` en `vite.config.ts` por el nombre de tu repositorio
+- **Base Path**: Cambia `/Wedding-Pane-FE/` en `vite.config.ts` por el nombre de tu repositorio
 - **CORS**: GitHub Pages no tiene problemas de CORS para archivos estáticos
 - **HTTPS**: GitHub Pages proporciona HTTPS automáticamente
 - **Cache**: Los navegadores pueden cachear la aplicación, usar `Ctrl+F5` para forzar recarga
