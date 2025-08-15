@@ -71,7 +71,7 @@ function GuestsPage() {
   const [guestToDelete, setGuestToDelete] = useState<Guest | null>(null);
 
   // Toast management
-  const { toasts, removeToast, showSuccess, showError, showWarning } =
+  const { toasts, removeToast, showSuccess, showWarning } =
     useToasts();
 
   // Modal handlers
