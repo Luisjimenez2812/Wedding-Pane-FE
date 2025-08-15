@@ -1,0 +1,2 @@
+# Este archivo evita que GitHub Pages procese el sitio con Jekyll
+# Es necesario para aplicaciones SPA que usan rutas personalizadas
