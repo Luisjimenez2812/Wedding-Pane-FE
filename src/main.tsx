@@ -7,7 +7,10 @@ import './index.css';
 import { routeTree } from './routeTree.gen';
 
 // Crear el router
-const router = createRouter({ routeTree });
+const router = createRouter({ 
+  routeTree,
+  basepath: '/Wedding-Pane-FE'
+});
 
 // Registrar el router para TypeScript
 declare module '@tanstack/react-router' {
