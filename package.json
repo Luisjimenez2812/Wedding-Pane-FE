@@ -7,6 +7,7 @@
     "dev": "vite",
     "dev:host": "vite --host",
     "build": "tsc -b && vite build",
+    "build:deploy": "npm run build && copy 404.html dist\\404.html",
     "lint": "eslint .",
     "preview": "vite preview",
     "preview:host": "vite preview --host",
@@ -27,6 +28,7 @@
   "devDependencies": {
     "@eslint/js": "^9.32.0",
     "@tanstack/router-cli": "^1.131.7",
+    "@types/node": "^24.2.1",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^4.7.0",
